@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
+body{
+    font-family: 'Anaheim', sans-serif;
+    background-image: url('hypertext-prototype/assets/background-mina.jpeg');
+}
+.deuda{
+    display: flex;
+    flex-direction: row;
+}
