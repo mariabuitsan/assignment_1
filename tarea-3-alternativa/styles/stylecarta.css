@@ -1,0 +1,69 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("/tarea-3-alternativa/assets/background-mayo18.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+} 
+h1{
+    display: flex;
+    flex-direction: column;
+    width: 75px;
+    height: 95px;
+    justify-content: center;
+    align-content: center;
+    color: whitesmoke;
+    opacity: 0.5;
+    font-family: 'Roboto Mono', monospace;
+    font-size: x-large;
+} 
+.cartaprueba{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+div.cartassimples{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 30px;
+}
+div.atras
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+p{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    justify-content: flex-start;
+    font-family:'Roboto Mono', monospace; 
+    font-size: medium;
+    color: whitesmoke;
+    opacity: 0.3;
+    padding: 70px;
+    margin: 25px;
+}
+div.adelante{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 15px;
+    padding-top: 75px;
+}
+div.reel{/*esto se puede pensar mejor como se le llama a los formatos de las peliculas*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 25px;
+}
