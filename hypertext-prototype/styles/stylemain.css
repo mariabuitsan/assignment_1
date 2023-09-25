@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
 body{
     font-family: 'Anaheim', sans-serif;
-    background-image: url('hypertext-prototype/assets/background-mina.jpeg');
+    background-image: url('https://github.com/mariabuitsan/assignment_1_3/blob/main/hypertext-prototype/assets/background-mina.jpeg?raw=true');
 }
 .deuda{
     display: flex;
