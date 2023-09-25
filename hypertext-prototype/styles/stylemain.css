@@ -1,9 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
-body{
-    font-family: 'Anaheim', sans-serif;
-    background-image: url('https://github.com/mariabuitsan/assignment_1_3/blob/main/hypertext-prototype/assets/background-mina.jpeg?raw=true');
+html{
+    height: 100%;
+    width: 100%;
 }
-.deuda{
+body{
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Anaheim', sans-serif;
+    background-image: url('https://github.com/mariabuitsan/assignment_1_3/blob/main/hypertext-prototype/assets/cecropia-obtusifolia.jpg?raw=true');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    width: 950px;
+    height: 69px;
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    color: #F6F0F0;
+    text-align: justify;
+    font-size: 55px;
+    font-family: Anaheim;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 20px;
+    word-wrap: break-word;
+    margin: 15px;
+}
+/*#deuda{
+    display: block;
+    width: 921px;
+    height: 600px;
+}*/
+.layer1a{
+    display: block;
+    height: 300px;
+    padding-left: 50%;
+    opacity: 0.80;
+}
+div.layer1b{
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    height: 60px;
+    flex-wrap: wrap;
+    align-content: center;
+    opacity: 0.7;
+}
+div.layer1c{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    opacity: 0.6;
+    padding-right: 35%;
+    padding-bottom: 2%;
+}
+div.layercenter{
+    background-image: url('https: //github .com/mariabuitsan/assignment_ 1_ 3px /blob/main/hypertext prototype/assets/cradleboard screenshot themet;jpeg?raw=true');
 }
