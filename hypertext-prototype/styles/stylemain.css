@@ -10,22 +10,30 @@ body{
     background-image: url('https://github.com/mariabuitsan/assignment_1_3/blob/main/hypertext-prototype/assets/cecropia-obtusifolia.jpg?raw=true');
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 0.9;
 }
 h1{
-    width: 950px;
-    height: 69px;
+    width: 162px;
+    height: 47px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    color: #F6F0F0;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    color: #F4EFEF;
     text-align: justify;
-    font-size: 55px;
+    font-size: 45px;
     font-family: Anaheim;
-    font-weight: 100;
+    font-weight: 500;
     text-transform: capitalize;
-    line-height: 20px;
+    line-height: 22px;
     word-wrap: break-word;
-    margin: 15px;
+    margin-left: 750px;
+    margin-top: 35px;
+}
+h2{
+    color: #F6F0F0;
+    font-size: 20px;
+    line-height: 15px;
 }
 /*#deuda{
     display: block;
@@ -56,5 +64,19 @@ div.layer1c{
     padding-bottom: 2%;
 }
 div.layercenter{
-    background-image: url('https: //github .com/mariabuitsan/assignment_ 1_ 3px /blob/main/hypertext prototype/assets/cradleboard screenshot themet;jpeg?raw=true');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: space-around;
+    margin-left: 75%;
+    margin-top: 10%;
+    background-color: rgba(64, 49, 24, 0.75);
+    height: 440px;
+    width: 440px;
+    padding: 30%;
+}
+.neocolonial{
+    background-image: url("https://github.com/mariabuitsan/assignment_1_3/blob/main/hypertext-prototype/assets/background-mina.jpeg?raw=true");
+    opacity: 0.8;
 }
