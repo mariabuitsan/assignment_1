@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 html{
     height: 100%;
     width: 100%;
@@ -42,7 +43,7 @@ h2{
 }*/
 .layer1a{
     display: block;
-    height: 300px;
+    height: 230px;
     padding-left: 50%;
     opacity: 0.80;
 }
@@ -77,6 +78,53 @@ div.layercenter{
     padding: 30%;
 }
 .neocolonial{
-    background-image: url("https://github.com/mariabuitsan/assignment_1_3/blob/main/hypertext-prototype/assets/background-mina.jpeg?raw=true");
-    opacity: 0.8;
+    background-image: url("https://github.com/mariabuitsan/assignment_1_3/blob/main/hypertext-prototype/assets/thecrown.gif?raw=true");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.menu{
+    width: fit-content;
+    height: fit-content;
+}
+p{
+    display: flex;
+    color: #000;
+    font-family: 'Abel', sans-serif;;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5%;
+}
+.shade1{
+    width: 554px;
+    height: 3000px;
+    margin-left: 340px;
+    background: #A8A8A8;
+    padding: 3%;
+}
+h3{
+    color: #7607BA;
+    font-family: 'Abel', 'sans-serif';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; 
+    padding: 10%;
+}
+h5{
+    display: flex;
+    color: #60210C;
+    font-size: 20px;
+    line-height: 18px;
+    border: 3px #16D464;
+    border-style: outset;
+    text-align: center;
+}
+.fcdo{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    margin: 8%;
+    border: 3px #16D464;
+    border-style: outset;
+    padding: 5%;
 }
