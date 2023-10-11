@@ -11,7 +11,7 @@ body{
     background-image: url('https://github.com/mariabuitsan/assignment_1_3/blob/main/hypertext-prototype/assets/cecropia-obtusifolia.jpg?raw=true');
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 h1{
     width: 162px;
@@ -36,95 +36,161 @@ h2{
     font-size: 20px;
     line-height: 15px;
 }
-/*#deuda{
-    display: block;
-    width: 921px;
-    height: 600px;
-}*/
-.layer1a{
-    display: block;
-    height: 230px;
-    padding-left: 50%;
-    opacity: 0.80;
-}
-div.layer1b{
+#primeracaja{
+    position: relative;
     display: flex;
     flex-direction: column;
-    width: 950px;
-    height: 60px;
-    flex-wrap: wrap;
-    align-content: center;
-    opacity: 0.7;
+    width: 990px;
+    height: 660px;
 }
-div.layer1c{
+.columna1{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    opacity: 0.6;
-    padding-right: 35%;
-    padding-bottom: 2%;
+    align-items: end;
+    height: 660px;
+    width: 230px;
 }
-div.layercenter{
+#matrix{
+    position: absolute;
+    left: 160px;
+    width: 970px;
+}
+.layer1{
+    cursor: pointer;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: space-around;
-    margin-left: 75%;
-    margin-top: 10%;
-    background-color: rgba(64, 49, 24, 0.75);
-    height: 440px;
-    width: 440px;
-    padding: 30%;
+    position: absolute;
+    left: 190px;
+    top: 200px;
+    z-index: 1;
 }
-.neocolonial{
-    background-image: url("https://github.com/mariabuitsan/assignment_1_3/blob/main/hypertext-prototype/assets/thecrown.gif?raw=true");
-    background-repeat: repeat;
-    background-size: cover;
+.layer1:hover{
+    border: 2px solid #428300;
 }
-.menu{
-    width: fit-content;
-    height: fit-content;
+div.layer1a{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    margin-left: 350px;
+    opacity: 1;
+    z-index: 2;
 }
-p{
-    display: flex;
-    color: #000;
-    font-family: 'Abel', sans-serif;;
-    font-size: 15px;
-    font-weight: 400;
-    padding: 5%;
+.layer1a:hover{
+    border: 2px solid #428300;
 }
-.shade1{
-    width: 554px;
-    height: 3000px;
-    margin-left: 340px;
-    background: #A8A8A8;
-    padding: 3%;
+div.layer1b{
+    display: none;
+    position: absolute;
+    left: 190px;
+    top: 500px;
+    opacity: 0.7;
+    z-index: 3;
 }
-h3{
-    color: #7607BA;
-    font-family: 'Abel', 'sans-serif';
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 35px; 
-    padding: 10%;
+.layer1b:hover{
+    box-shadow: 4px 4px 10px 10px rgb(254, 251, 250)
 }
-h5{
-    display: flex;
-    color: #60210C;
-    font-size: 20px;
-    line-height: 18px;
-    border: 3px #16D464;
-    border-style: outset;
-    text-align: center;
+div.layer1c{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    left: 250px;
+    opacity: 0.6;
+    z-index: 4;
 }
-.fcdo{
-    display: flex;
-    background-color: black;
-    justify-content: center;
-    margin: 8%;
-    border: 3px #16D464;
-    border-style: outset;
-    padding: 5%;
+.layer1c:hover{
+    border: 2px solid #428300;  
+}
+.layer2{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 350px;
+    right: 18px;
+    z-index: 5;
+}
+.layer2:hover{
+    border: 2px solid #428300;
+}
+.layer2a{
+    display: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    z-index: 6;
+}
+.layer2a:hover{
+    box-shadow: 4px 4px 10px 10px rgb(254, 251, 250)
+}
+.layer2b{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 200px;
+    right: 0.5px;
+    z-index: 7;
+}
+.layer2b:hover{
+    border: 2px solid #428300;
+}
+.layer2c{
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 98px;
+    z-index: 8;
+}
+.layer2d{
+    display: none;
+    position: absolute;
+    top: 340px;
+    right: 2px;
+    z-index: 9;
+    opacity: 0.88;
+}
+.layer2d:hover{
+    box-shadow: 4px 4px 10px 10px rgb(254, 251, 250)
+}
+.layer3{
+    display: none;
+    position: absolute;
+    left: 135px;
+    top: 295px;
+    z-index: 10;
+}
+.layer3:hover{
+    box-shadow: 4px 4px 10px 10px rgb(254, 251, 250)
+}
+.layer3a{
+    display: none;
+    position: absolute;
+    top:385px;
+    left:20px;
+    z-index: 13;
+}
+.layer3a:hover{
+    box-shadow: 4px 4px 10px 10px rgb(254, 251, 250)
+}
+.layer3b{
+    display: none;
+    position: absolute;
+    top:490px;
+    right: 200px;
+    z-index: 11;
+}
+.layer3c{
+    display: none;
+    position: absolute;
+    top:170px;
+    left:50px;
+    z-index: 13;
+}
+.layer3c:hover{
+    box-shadow: 4px 4px 10px 10px rgb(254, 251, 250)
+}
+.layer3d{
+    display: none;
+    position: absolute;
+    top:400px;
+    left: 5px;
+    z-index: 12;
 }
